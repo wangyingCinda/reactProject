@@ -33,7 +33,7 @@ const router = <Router>
 				</Register>
 			}/>
 			<Route path="/login" component={Login}/>
-			<Route path="/detailV2" component={DetailV2}/>
+			<Route path="/detailV2/:id" component={DetailV2}/>
 			<Redirect from="/" to="/home"></Redirect>
 		</Switch>
 	</App>
