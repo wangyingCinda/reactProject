@@ -1,0 +1,32 @@
+.App {
+  
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  background:#f6f6f6;
+}
+ul {
+  li{
+    list-style:none;
+  }
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.active{
+	color:#c30413;
+	
+	
+}
+.actives{
+  background:#333333;
+  color:white;
+}

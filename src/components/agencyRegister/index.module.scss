@@ -1,0 +1,33 @@
+.main{
+	margin-left:10%;
+	p{
+		input{
+			width:300px;
+			height:45px;
+			border:1px solid lightgrey;
+		}
+	}
+	.havelogname{
+		height:50px;
+		line-height:50px;
+		color:lightgrey;
+		font-size:14px;
+	}
+	.regist{
+		width:300px;
+		background:#c30414;
+		height:40px;
+		color:white;
+		line-height:40px;
+		text-align:center;
+		border-radius:2px;
+	}
+	span{
+		display:block;
+		width:150px;
+		height:20px;
+		margin-left:180px;
+		font-size:13px;
+		color:grey;
+	}
+}

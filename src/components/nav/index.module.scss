@@ -1,0 +1,30 @@
+.main{
+	position:absolute;
+	top:50px;
+	left:0px;
+	z-index:20;
+	height:40px;
+	line-height:40px;
+	width:100%;
+	margin-bottom:10px;
+	font-size:15px;
+	background:white;
+	ul {
+		width:100%;
+		display:flex;
+		.li{
+			flex:1;
+			display:inline-block;
+			text-align:center;
+			i{
+				color:black;
+			}
+		}
+	}
+
+	
+}
+
+.notmain{
+	display:none;
+}

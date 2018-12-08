@@ -1,0 +1,105 @@
+.main{
+	position:absolute;
+	width:100%;
+	top:100px;
+
+	.fenlei{
+		width:100%;
+		border-top:1px solid lightgrey;
+		background:white;
+		z-index:10;
+		margin-top:-10px;
+		position:absolute;
+		p{
+			width:49.6%;
+			background:white;
+			border-right:1px solid lightgrey;
+			float:left;
+			border-bottom:1px solid lightgrey;
+			height:30px;
+			font-size:15px;
+			color:black;
+			line-height:30px;
+			text-align:center;
+			color:grey;
+		}
+	}
+	.fenleinot{
+		display:none;
+	}
+
+
+	.intro{
+		width:45%;
+		float:left;
+		margin-left:10px;
+		img{
+			width:100%;
+		}
+		.stright{
+			width:90%;
+			border-top:1px solid lightgrey;
+			display:block;
+			margin-left:5px;
+			margin-top:5px;
+			margin-bottom:1px;
+		}
+		.title{	
+			font-size:13px;
+			margin-left:5px;
+			width:100%;
+			overflow: hidden;
+		 	text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.origin{
+			font-size:13px;
+			color:grey;
+			margin-left:5px;
+			margin-top:5px;
+			margin-bottom:5px;
+		}
+		.small{
+			span{
+				margin-left:5px;
+				color:grey;
+				font-size:13px;
+			}
+			i{
+				margin-left:5px;
+			}
+			.gohome{
+				display:block;
+				width:30px;
+				float:left
+			}
+			.hours{
+				display:block;
+				width:60px;
+				float:right;
+			}
+		}
+		margin-bottom:5px;
+
+	}
+
+	.loadmore{
+		width:90%;
+		background:#c30413;
+		height:40px;
+		margin-top:15px;
+		margin-left:15px;
+		margin-bottom:10px;
+		border-radius:3px;
+		color:white;
+		line-height:40px;
+		text-align:center;
+
+	}
+}
+
+.clear{
+	overflow:hidden;
+	clear:both;
+	content:"";
+}

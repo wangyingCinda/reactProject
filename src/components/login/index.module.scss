@@ -1,0 +1,75 @@
+.main{
+	width:100%;
+	.head{
+		width:100%;
+		height:50px;
+		background:#c30413;
+		color:white;
+		font-size:20px;
+		line-height:50px;
+		.span{
+			margin-left:150px;
+		}
+		.right{
+			margin-left:110px;
+			color:white;
+		}
+		i{
+			font-weight:1000;
+			font-size:23px;
+		}
+	}
+
+	.choose{
+		margin-top:30px;
+		margin-bottom:15px;
+		margin-left:20%;
+		border-bottom:2px solid lightgrey;
+		width:220px;
+		span{
+			font-size:20px;
+			display:inline-block;
+		}
+		.name{
+			margin-right:50px;
+			color:#c30413;
+			border-bottom:2px solid #c30413;
+			padding-bottom:1px;
+			margin-bottom:-1px;
+		}
+	}
+	.input{
+		margin-left:20px;
+		margin-top:30px;
+		input{
+			width:340px;
+			height:40px;
+		}
+	}
+
+	.remember{
+		margin-left:20px;
+		height:50px;
+		line-height:50px;
+		font-size:14px;
+		color:grey;
+		span{
+			margin-left:10px;
+		}
+		input{
+			width:20px;
+		}
+	}
+
+	.log{
+		width:340px;
+		height:45px;
+		background:#c30413;
+		margin-left:20px;
+		border-radius:3px;
+		line-height:45px;
+		text-align:center;
+		color:white;
+	}
+
+}

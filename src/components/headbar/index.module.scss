@@ -1,0 +1,38 @@
+.main{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+	background:#c30413;
+	img{
+		position:absolute;
+		top:15px;
+	}
+	.img1{
+		left:10px;
+	}
+	.img2{
+		left:45%;
+	}
+	.img3{
+		right:40px;
+	}
+	.img4{
+		right:15px;
+	}
+	.nott{
+		display:none;
+	}
+	.img_close{
+		left:0px;
+		top:0px;
+		height:50px;		
+	}
+	.nott_close{
+		display:none;
+	}
+}
+.notmain{
+	display:none;
+}
